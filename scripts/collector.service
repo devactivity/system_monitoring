@@ -1,0 +1,12 @@
+[Unit]
+Description=Erlang Metrics Collector
+After=network.target
+
+[Service]
+ExecStart=/home/bill/Desktop/my-stream/system_monitoring/erlang_collector/start.sh
+
+[Install]
+WantedBy=multi-user.target
+
+
+

@@ -1,0 +1,6 @@
+-sname erlang_collector
+
+-setcookie erlang_collector_cookie
+
++K true
++A30
